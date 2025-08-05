@@ -1,0 +1,27 @@
+name: voltwatch
+description: "Application mobile de suivi de consommation électrique avec authentification, tableau de bord temps réel, alertes personnalisées et système de paiement intégré."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  supabase_flutter: ^2.8.0
+  fl_chart: ^0.69.0
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  flutter_local_notifications: ^18.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
